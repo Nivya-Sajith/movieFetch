@@ -38,8 +38,8 @@ movie=mname.value;
         md=await data.json();  
         console.log(md); 
         htmldata= `
- 
-    <h5 class="text-danger">${md.Title} (${md.Year})</h5>
+ <img src="${md.Poster}">
+    <h5 class="text-danger text-center">${md.Title} (${md.Year})</h5>
     <p class=""><b> Plot: </b>${md.Plot}</p>
   
   <ul class="list-group list-group-flush bg-secondary-subtle">
